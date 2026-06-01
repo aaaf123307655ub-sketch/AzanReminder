@@ -13,9 +13,8 @@ public class AzanService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.d("AzanApp", "خدمة الأذان تعمل الآن في الخلفية");
-        // هنا سنضيف لاحقاً منطق تشغيل صوت الأذان
+        // هنا سيتم وضع كود تشغيل صوت الأذان لاحقاً
+        Log.d("AzanApp", "تم تفعيل خدمة الأذان بنجاح");
         return START_STICKY;
     }
 }
-
